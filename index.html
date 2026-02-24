@@ -11,13 +11,18 @@
   <div id="home">
     <h1>Car Store</h1>
 
+    <!-- Search Bar -->
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Search car by name..." onkeyup="searchCars()">
+    </div>
+
     <!-- Home Page Banner Image -->
     <div class="home-banner">
       <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70" alt="Car Banner">
     </div>
 
-    <div class="cars">
-      
+    <div class="cars" id="carList">
+
       <div class="card" onclick="showDetail(1)">
         <img src="https://images.unsplash.com/photo-1617788138017-80ad40651399" alt="Tesla Model S">
         <h3>Tesla Model S</h3>
