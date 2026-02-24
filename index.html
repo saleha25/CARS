@@ -7,35 +7,44 @@
 </head>
 <body>
 
+  <!-- HOME SECTION -->
   <div id="home">
     <h1>Car Store</h1>
 
+    <!-- Home Page Banner Image -->
+    <div class="home-banner">
+      <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70" alt="Car Banner">
+    </div>
+
     <div class="cars">
+      
       <div class="card" onclick="showDetail(1)">
-        <img src="https://images.unsplash.com/photo-1617788138017-80ad40651399">
+        <img src="https://images.unsplash.com/photo-1617788138017-80ad40651399" alt="Tesla Model S">
         <h3>Tesla Model S</h3>
       </div>
 
       <div class="card" onclick="showDetail(2)">
-        <img src="https://images.unsplash.com/photo-1555215695-3004980ad54e">
+        <img src="https://images.unsplash.com/photo-1555215695-3004980ad54e" alt="BMW M4">
         <h3>BMW M4</h3>
       </div>
 
       <div class="card" onclick="showDetail(3)">
-        <img src="https://images.unsplash.com/photo-1611821064430-0d40291d0f0b">
+        <img src="https://images.unsplash.com/photo-1611821064430-0d40291d0f0b" alt="Audi R8">
         <h3>Audi R8</h3>
       </div>
 
       <div class="card" onclick="showDetail(4)">
-        <img src="https://i.pinimg.com/736x/18/a0/9d/18a09d91270e871c523ef674c0eba934.jpg">
+        <img src="https://i.pinimg.com/736x/18/a0/9d/18a09d91270e871c523ef674c0eba934.jpg" alt="Ford Mustang">
         <h3>Ford Mustang</h3>
       </div>
+
     </div>
   </div>
 
-  <div id="detail">
+  <!-- DETAIL SECTION -->
+  <div id="detail" style="display: none;">
     <h1 id="carName"></h1>
-    <img id="carImage">
+    <img id="carImage" alt="Car Image">
     <p id="carPrice"></p>
     <p id="carSpeed"></p>
 
